@@ -1,13 +1,21 @@
 package beans;
 
 public class Employee {
-	
+	private int empid;
 	private String name;
 	private String designation;
 	private String Email;
 	private String password;
 	private int years_of_exp;
 	private int salary;
+	
+	
+	public int getEmpid() {
+		return empid;
+	}
+	public void setEmpid(int empid) {
+		this.empid = empid;
+	}
 	public String getName() {
 		return name;
 	}

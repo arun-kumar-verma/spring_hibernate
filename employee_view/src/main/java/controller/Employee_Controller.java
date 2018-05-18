@@ -18,6 +18,7 @@ public class Employee_Controller {
 	
 	@RequestMapping(value="register", method =RequestMethod.POST)
 	public ModelAndView addEmployee(@ModelAttribute Employee emp,Model model) {
+		model.addAttribute("id", emp.getEmpid());
 		model.addAttribute("name", emp.getName());
 		model.addAttribute("designation",emp.getDesignation());
 		model.addAttribute("Email", emp.getEmail());

@@ -12,6 +12,7 @@
 <center><h2>Registration form</h2></center>
 <form:form action="/employee_view/register" method="post" commandName="employee_model">
 <table>
+<tr><td>Employee Id</td><td>:</td><td><form:input path="empid"/></td></tr>
 <tr><td>Employee Name</td><td>:</td><td><form:input path="name"/></td></tr>
 <tr><td>Employee designation</td><td>:</td><td><form:input path="designation"/></td></tr>
 <tr><td>Employee email</td><td>:</td><td><form:input path="Email"/></td></tr>
